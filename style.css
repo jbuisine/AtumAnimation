@@ -1,0 +1,49 @@
+
+.myDiv {
+  width: 100px;
+  height: 100px;
+
+  position: relative;
+  margin: 60px auto;
+}
+.circle1, .circle2{
+	width: 60px;
+	height: 60px;
+	background: #d9d9d9;
+	position: absolute;
+	border-radius:50px;
+	-webkit-animation: myAnimation 3s infinite; /* Chrome, Safari, Opera */
+	animation: myAnimation 3s infinite;
+
+}
+
+.circle2 {
+
+  -webkit-animation-delay: -1.5s;
+  animation-delay: -1.5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myAnimation {
+     	0%   {background: #d9d9d9; opacity:1; width:60px; height:60px; margin-left:0px; margin-top:0px;}
+   	  50%  {background: #739900; opacity:0; width:0px; height:0px; margin-left:30px; margin-top:30px;}
+    	100%	{background: #d9d9d9; opacity:1; width:60px; height:60px; margin-left:0px; margin-top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myAnimation {
+	0%   {background: #d9d9d9; opacity:1; width:60px; height:60px; margin-left:0px; margin-top:0px;}
+   	  50%  {background: #739900; opacity:0; width:0px; height:0px; margin-left:30px; margin-top:30px;}
+    	100%	{background: #d9d9d9; opacity:1; width:60px; height:60px; margin-left:0px; margin-top:0px;}
+}
+
+@-webkit-keyframes myMove {
+     	0%   {-webkit-transform: translateX(0px);}
+       	100% {-webkit-transform: translateX(200px);}
+}
+
+
+@keyframes myMove {
+     	0%   {transform: translateX(0px); -webkit-transform: translateX(0px);}
+       	100% {transform: translateX(200px); -webkit-transform: translateX(200px);}
+}
