@@ -10,8 +10,14 @@ h2 {
 	height: 100px;	
 }
 
+
+
+.GitHubLink:hover{
+	color:dark;	
+}
+
 .div1 {
-	width:300px;
+	width:260px;
 	height:240px;
 	position:relative;
 	margin:200px auto;
