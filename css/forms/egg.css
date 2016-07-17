@@ -1,0 +1,46 @@
+.egg{
+  background: white;
+  width: 45px;
+  height: 60px;
+  -webkit-border-radius: 50% / 60% 60% 40% 40%;
+  border-radius: 50% / 60% 60% 40% 40%;
+  -webkit-animation:eggAnimation 6s infinite ease-in-out;
+  animation:eggAnimation 6s infinite ease-in-out;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes eggAnimation {
+	50% {
+		-webkit-transform: translateX(240px)  rotate(539deg);
+	}
+	
+	50.1% {
+		-webkit-transform: translateX(240px)  rotate(540deg);
+	}
+	
+	100% {
+		-webkit-transform: translateX(0px) rotate(0deg);
+	}
+}
+
+/* Standard syntax */
+@keyframes eggAnimation {
+
+	
+	50% {
+		transform: translateX(240px)  rotate(539deg);
+		-webkit-transform: translateX(240px)  rotate(539deg);
+	}
+	
+	50.1% {
+		transform: translateX(240px)  rotate(540deg);
+		-webkit-transform: translateX(240px)  rotate(540deg);
+	}
+	
+	100% {
+		transform: translateX(0px) rotate(0deg);
+		-webkit-transform: translateX(0px) rotate(0deg);
+	}
+}

@@ -1,0 +1,59 @@
+.diamond{
+ 	color: white;	
+ 	width: 0px;
+ 	height: 0px;
+	border: 30px solid transparent;
+ 	border-bottom-color: white;
+ 	position: relative;
+ 	top: -30px;
+ 	animation: diamondAnimation 6s infinite;
+ 	-webkit-animation: diamondAnimation 6s infinite;
+}
+
+.diamond:after {
+	content: '';
+	position: absolute;
+	left: -30px;
+	top: 30px;
+	width: 0;
+	height: 0;
+	border: 30px solid transparent;
+	border-top-color: white;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes diamondAnimation {
+	50% {
+		-webkit-transform: translateX(240px)  rotate(539deg);
+	}
+	
+	50.1% {
+		-webkit-transform: translateX(240px)  rotate(540deg);
+	}
+	
+	100% {
+		-webkit-transform: translateX(0px) rotate(0deg);
+	}
+}
+
+/* Standard syntax */
+@keyframes diamondAnimation {
+
+	
+	50% {
+		transform: translateX(120px)  rotate(539deg) scale(0.5);
+		-webkit-transform: translateX(120px)  rotate(539deg) scale(0.5);
+	}
+	
+	50.1% {
+		transform: translateY(120px)  rotate(540deg) scale(0.5);
+		-webkit-transform: translateY(120px)  rotate(540deg) scale(0.5);
+	}
+	
+	100% {
+		transform: translateX(0px) translateY(0px) rotate(0deg) scale(1);
+		-webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1);
+	}
+}

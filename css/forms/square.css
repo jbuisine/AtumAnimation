@@ -1,0 +1,44 @@
+.square {
+	width:40px;
+	height:40px;
+	border-radius:3px;
+	background:#fff;
+	position:absolute;
+	-webkit-animation:squareAnimation 6s infinite ease-in-out;
+	animation:squareAnimation 6s infinite ease-in-out;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes squareAnimation {
+	50% {
+		-webkit-transform: translateX(240px) rotateY(719deg);
+	}
+
+	50.1% {
+		-webkit-transform: translateX(240px) rotateY(720deg);
+	}
+	
+	100% {
+		-webkit-transform: translateX(0px) rotateY(0deg);
+	}
+}
+
+/* Standard syntax */
+@keyframes squareAnimation {
+
+	
+	50% {
+		transform: translateX(240px) rotateY(719deg);
+		-webkit-transform: translateX(240px) rotateY(719deg);
+	}
+
+	50.1% {
+		transform: translateX(240px) rotateY(720deg);
+		-webkit-transform: translateX(240px) rotateY(720deg);
+	}
+	
+	100% {
+		transform: translateX(0px) rotateY(0deg);
+		-webkit-transform: translateX(0px) rotateY(0deg);
+	}
+}
