@@ -1,5 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 
+<?php 
+ require $_SERVER["DOCUMENT_ROOT"].'/vendor/autoload.php';	
+?>
 <html>
 <head>
 	<meta charset="utf-8">
