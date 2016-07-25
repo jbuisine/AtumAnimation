@@ -1,4 +1,4 @@
-.diamond{
+.circle{
  	color: white;	
  	width: 0px;
  	height: 0px;
@@ -6,25 +6,14 @@
  	border-bottom-color: white;
  	position: relative;
  	top: -30px;
- 	animation: diamondAnimation 6s infinite;
- 	-webkit-animation: diamondAnimation 6s infinite;
-}
-
-.diamond:after {
-	content: '';
-	position: absolute;
-	left: -30px;
-	top: 30px;
-	width: 0;
-	height: 0;
-	border: 30px solid transparent;
-	border-top-color: white;
+ 	animation: circleAnimation 6s infinite;
+ 	-webkit-animation: circleAnimation 6s infinite;
 }
 
 
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes diamondAnimation {
+@-webkit-keyframes circleAnimation {
 	25% {
 		-webkit-transform: translateX(120px)  rotate(259deg) scale(0.5);
 	}
@@ -48,7 +37,7 @@
 }
 
 /* Standard syntax */
-@keyframes diamondAnimation {
+@keyframes circleAnimation {
 
 	
 	25% {
