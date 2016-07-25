@@ -1,12 +1,11 @@
 .circle{
  	color: white;	
- 	width: 0px;
- 	height: 0px;
-	border: 30px solid transparent;
- 	border-bottom-color: white;
- 	position: relative;
- 	top: -30px;
- 	animation: circleAnimation 6s infinite;
+ 	width: 50px;
+ 	height: 50px;
+	border-radius: 30px;
+	background:#fff;
+	position:absolute;
+  	animation: circleAnimation 6s infinite;
  	-webkit-animation: circleAnimation 6s infinite;
 }
 
@@ -14,26 +13,27 @@
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes circleAnimation {
+	
 	25% {
-		-webkit-transform: translateX(120px)  rotate(259deg) scale(0.5);
+		-webkit-transform: translateY(120px) translateX(120px) scale(0.5);
 	}
 	
 	25.1% {
-		-webkit-transform: translateX(120px)  rotate(260deg) scale(0.5);
+		-webkit-transform: translateY(120px) translateX(120px) scale(0.5);
 	}
 	
 	50% {
-		-webkit-transform: translateX(240px)  rotate(0deg) scale(1);
+		-webkit-transform: translateX(240px) translateY(0px) scale(1);
 	}
 	
 	75% {
-		-webkit-transform: translateX(120px)  rotate(260deg) scale(0.5);
+		-webkit-transform: translateX(120px) translateY(120px) scale(0.5);
 	}
 	
 	100% {
-		-webkit-transform: translateX(0px) rotate(0deg) scale(1);
+		-webkit-transform: translateX(0px) translateY(0px) scale(1);
 	}
-}
+
 }
 
 /* Standard syntax */
@@ -41,27 +41,27 @@
 
 	
 	25% {
-		transform: translateX(120px)  rotate(259deg) scale(0.5);
-		-webkit-transform: translateX(120px)  rotate(259deg) scale(0.5);
+		transform: translateY(120px) translateX(120px)  scale(0.5);
+		-webkit-transform: translateY(120px) translateX(120px) scale(0.5);
 	}
 	
 	25.1% {
-		transform: translateX(120px)  rotate(260deg) scale(0.5);
-		-webkit-transform: translateX(120px)  rotate(260deg) scale(0.5);
+		transform: translateY(120px) translateX(120px)  scale(0.5);
+		-webkit-transform: translateY(120px) translateX(120px) scale(0.5);
 	}
 	
 	50% {
-		transform: translateX(240px) rotate(0deg) scale(1);
-		-webkit-transform: translateX(240px)  rotate(0deg) scale(1);
+		transform: translateX(240px) translateY(0px) scale(1);
+		-webkit-transform: translateX(240px) translateY(0px) scale(1);
 	}
 	
 	75% {
-		transform: translateX(120px)  rotate(260deg) scale(0.5);
-		-webkit-transform: translateX(120px)  rotate(260deg) scale(0.5);
+		transform: translateX(120px) translateY(120px) scale(0.5);
+		-webkit-transform: translateX(120px) translateY(120px) scale(0.5);
 	}
 	
 	100% {
-		transform: translateX(0px) rotate(0deg) scale(1);
-		-webkit-transform: translateX(0px) rotate(0deg) scale(1);
+		transform: translateX(0px) translateY(0px) scale(1);
+		-webkit-transform: translateX(0px) translateY(0px) scale(1);
 	}
 }
