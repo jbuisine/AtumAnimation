@@ -1,13 +1,13 @@
 .circle{
  	color: white;	
- 	width: 50px;
- 	height: 50px;
-	border-radius: 30px;
+ 	width: 40px;
+ 	height: 40px;
+	border-radius: 20px;
 	background:#fff;
 	position:absolute;
   	animation: circleAnimation 3s infinite;
  	-webkit-animation: circleAnimation 3s infinite;
- 	padding: 30px;
+ 	margin: 75px;
 }
 
 
@@ -16,19 +16,19 @@
 @-webkit-keyframes circleAnimation {
 	
 	25% {
-		-webkit-transform: translateY(60px) translateX(60px) scale(0.5);
+		-webkit-transform: translateY(40px) translateX(40px) scale(0.5);
 	}
 	
 	25.1% {
-		-webkit-transform: translateY(60px) translateX(60px) scale(0.5);
+		-webkit-transform: translateY(40px) translateX(40px) scale(0.5);
 	}
 	
 	50% {
-		-webkit-transform: translateY(0px) translateX(120px) scale(1);
+		-webkit-transform: translateY(0px) translateX(80px) scale(1);
 	}
 	
 	75% {
-		-webkit-transform: translateY(-60px) translateX(60px) scale(0.5);
+		-webkit-transform: translateY(-40px) translateX(40px) scale(0.5);
 	}
 	
 	100% {
@@ -40,23 +40,23 @@
 @keyframes circleAnimation {
 
 	25% {
-		transform: translateY(60px) translateX(60px)  scale(0.5);
-		-webkit-transform: translateY(60px) translateX(60px) scale(0.5);
+		transform: translateY(40px) translateX(40px)  scale(0.5);
+		-webkit-transform: translateY(40px) translateX(40px) scale(0.5);
 	}
 	
 	25.1% {
-		transform: translateY(60px) translateX(60px)  scale(0.5);
-		-webkit-transform: translateY(60px) translateX(60px) scale(0.5);
+		transform: translateY(40px) translateX(40px)  scale(0.5);
+		-webkit-transform: translateY(40px) translateX(40px) scale(0.5);
 	}
 	
 	50% {
-		transform: translateY(0px) translateX(120px) scale(1);
-		-webkit-transform: translateY(0px) translateX(120px) scale(1);
+		transform: translateY(0px) translateX(80px) scale(1);
+		-webkit-transform: translateY(0px) translateX(80px) scale(1);
 	}
 	
 	75% {
-		transform: translateY(-60px) translateX(60px) scale(0.5);
-		-webkit-transform: translateY(-60px) translateX(60px) scale(0.5);
+		transform: translateY(-40px) translateX(40px) scale(0.5);
+		-webkit-transform: translateY(-40px) translateX(40px) scale(0.5);
 	}
 	
 	100% {
