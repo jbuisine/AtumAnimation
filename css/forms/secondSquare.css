@@ -6,7 +6,7 @@
 	position:absolute;
 	-webkit-animation:secondSquareAnimation 3s infinite ease-in-out;
 	animation:secondSquareAnimation 3s infinite ease-in-out;
-	align-content: center;
+	margin-left: 105px;
 }
 
 /* Chrome, Safari, Opera */

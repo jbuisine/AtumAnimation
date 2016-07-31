@@ -7,7 +7,7 @@
 	position:absolute;
   	animation: circleAnimation 3s infinite;
  	-webkit-animation: circleAnimation 3s infinite;
- 	align-content: center;
+ 	margin-left: 90px;
 }
 
 
