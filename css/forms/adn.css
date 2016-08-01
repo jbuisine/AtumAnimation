@@ -1,0 +1,24 @@
+.adn{
+ 	color: white;	
+ 	width: 40px;
+ 	height: 40px;
+	border-radius: 20px;
+	background:#fff;
+	position:absolute;
+  	animation: adnAnimation 3s infinite;
+ 	-webkit-animation: adnAnimation 3s infinite;
+ 	margin-left: 90px;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes adnAnimation {
+
+}
+
+/* Standard syntax */
+@keyframes adnAnimation {
+
+
+}
