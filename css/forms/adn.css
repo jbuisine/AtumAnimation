@@ -5,8 +5,8 @@
 	border-radius: 20px;
 	background:#fff;
 	position:absolute;
-  	animation: adnAnimation 3s infinite;
- 	-webkit-animation: adnAnimation 3s infinite;
+  	animation: adnAnimation 6s infinite;
+ 	-webkit-animation: adnAnimation 6s infinite;
  	margin-left: 90px;
 }
 
@@ -14,11 +14,60 @@
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes adnAnimation {
-
+	0% {
+		-webkit-transform: translateX(0px) scale(1);
+	}
+	
+	20% {
+		-webkit-transform: translateX(60px) scale(0.5);
+	}
+	
+	40% {
+		-webkit-transform: translateX(120px) scale(1);
+	}
+	
+	60% {
+		-webkit-transform: translateX(180px) scale(0.5);
+	}
+	
+	80% {
+		-webkit-transform: translateX(240px) scale(1);
+	}
+	
+	100% {
+		-webkit-transform: translateX(300px) scale(0.5);
+	}
 }
 
 /* Standard syntax */
 @keyframes adnAnimation {
-
-
+	0% {
+		-webkit-transform: translateX(0px) scale(1);
+		transform: translateX(0px) scale(1);
+	}
+	
+	20% {
+		-webkit-transform: translateX(60px) scale(0.5);
+		transform: translateX(60px) scale(0.5);
+	}
+	
+	40% {
+		-webkit-transform: translateX(120px) scale(1);
+		transform: translateX(120px) scale(1);
+	}
+	
+	60% {
+		-webkit-transform: translateX(180px) scale(0.5);
+		transform: translateX(180px) scale(0.5);
+	}
+	
+	80% {
+		-webkit-transform: translateX(240px) scale(1);
+		transform: translateX(240px) scale(1);
+	}
+	
+	100% {
+		-webkit-transform: translateX(300px) scale(0.5);
+		transform: translateX(300px) scale(0.5);
+	}
 }
