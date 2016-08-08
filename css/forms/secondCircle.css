@@ -1,17 +1,17 @@
-.adn{
+.secondCircle{
  	color: white;	
  	width: 40px;
  	height: 40px;
 	border-radius: 20px;
 	background:#fff;
 	position:absolute;
-  	animation: adnAnimation 6s infinite;
- 	-webkit-animation: adnAnimation 6s infinite;
+  	animation: secondCircleAnimation 6s infinite;
+ 	-webkit-animation: secondCircleAnimation 6s infinite;
 }
 
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes adnAnimation {
+@-webkit-keyframes secondCircleAnimation {
 	0% {
 		-webkit-transform: translateX(0px) scale(1);
 	}
@@ -58,7 +58,7 @@
 }
 
 /* Standard syntax */
-@keyframes adnAnimation {
+@keyframes secondCircleAnimation {
 	0% {
 		-webkit-transform: translateX(0px) scale(1);
 		transform: translateX(0px) scale(1);

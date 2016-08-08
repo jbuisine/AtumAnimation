@@ -50,3 +50,12 @@ h2 {
 .item6{
 	background-color: #646dc2;
 }
+
+.thumbnail:hover{
+	transition:1s;
+	opacity: 0.5;
+}
+
+.container{
+	padding-top: 200px;
+}
