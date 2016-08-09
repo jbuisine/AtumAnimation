@@ -16,4 +16,4 @@ You can add one of these files or more to add the form(s) you want.
 
 <h2>Contribution</h2>
 
-Don't hesitate to create branch of my project and contribute to it ! It just want to be enhanced !
+Don't hesitate to create branch of my project and contribute to it ! It just wants to be enhanced !
