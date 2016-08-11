@@ -5,8 +5,9 @@
 	border-radius: 20px;
 	background:#fff;
 	position:absolute;
-  	animation: secondCircleAnimation 6s infinite;
- 	-webkit-animation: secondCircleAnimation 6s infinite;
+  	animation: secondCircleAnimation 6s infinite ease-in-out;
+ 	-webkit-animation: secondCircleAnimation 6s infinite ease-in-out;
+ 	margin-left: -40px;
 }
 
 
@@ -60,8 +61,8 @@
 /* Standard syntax */
 @keyframes secondCircleAnimation {
 	0% {
-		-webkit-transform: translateX(0px) scale(1);
-		transform: translateX(0px) scale(1);
+		-webkit-transform:  translateX(0px) scale(1);
+		transform: translateX(0px) scale(1) ;
 	}
 	
 	10% {
@@ -101,16 +102,16 @@
 	
 	80% {
 		-webkit-transform: translateX(120px) scale(1);
-		transform: translateX(120px) scale(1);
+		transform: translateX(120px) scale(1) opacity(0);
 	}
 	
 	90% {
 		-webkit-transform: translateX(60px) scale(0.5);
-		transform: translateX(60px) scale(0.5);
+		transform: translateX(60px) scale(0.5) opacity(1);
 	}
 	
 	100% {
 		-webkit-transform: translateX(0px) scale(1);
-		transform: translateX(0px) scale(1);
+		transform: translateX(0px) scale(1) opacity(0);
 	}
 }
