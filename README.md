@@ -2,17 +2,19 @@
 
 <h2>Presentation</h2>
 
-This is HTML/CSS project which proposed CSS 3 animations.
+This is HTML/CSS project which proposed CSS 3 animations. 
+
+The website can be run into a virtual machine configured into Vagrant file (Scotch box ). Otherwise all website is into the <strong>public/</strong> folder.
 
 <h2>Installation</h2>
 
-Clone the git project and run :
+Clone the git project and run the command :
 
 ```
 vagrant up
 ```
 
-After that, you just have to use the url :
+After that, you just have to use the url to show the web application :
 
 ```
 192.168.33.10
@@ -24,10 +26,11 @@ After that, you just have to use the url :
 All forms .css files are into the folder :
 
 ```
-css/forms/
+public/css/forms/
 ```
 
 You can add one of these files or more to add the form(s) you want.
+
 <h2>Contribution</h2>
 
 Don't hesitate to create branch of my project and contribute to it ! It just wants to be enhanced !
