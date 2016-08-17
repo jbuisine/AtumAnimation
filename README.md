@@ -14,12 +14,11 @@ Clone the git project and run the command :
 vagrant up
 ```
 
-After that, you just have to use the url to show the web application :
+After that, you just have to use this url to show the web application :
 
 ```
 192.168.33.10
 ```
-
 
 <h2>Informations</h2>
 
@@ -30,6 +29,14 @@ public/css/forms/
 ```
 
 You can add one of these files or more to add the form(s) you want.
+
+Currently, there is 6 animations :
+- Square animation
+- Diamond animation
+- Egg animation
+- Circle animation 
+- Second square animation
+- Second circle animation
 
 <h2>Contribution</h2>
 
